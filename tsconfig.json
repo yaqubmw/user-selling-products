@@ -17,7 +17,8 @@
       "@pages/*": ["./src/pages/*"],
       "@redux/*": ["./src/redux/*"],
       "@utils/*": ["./src/utils/*"],
-      "@server/*": ["./src/server/*"]
+      "@api/*": ["./src/api/*"],
+      "@middleware/*": ["./src/middleware/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
