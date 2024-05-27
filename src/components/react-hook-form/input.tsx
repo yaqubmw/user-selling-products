@@ -20,12 +20,12 @@ export const Input: React.FC<InputProps> = ({
   const { register } = useFormContext();
   return (
     <input
-    {...register(name, rules)}
+      {...register(name, rules)}
       id={id}
       name={name}
       type={type}
-      className={`block border-gray-300 text-sm rounded-md focus:ring-0 focus:border-indigo-500 ${width}`}
+      className={`block border border-gray-300 text-sm rounded-md rong-0 focus:ring-0 focus:border-indigo-200 ${width}`}
       placeholder={placeholder}
     />
-  )
+  );
 };

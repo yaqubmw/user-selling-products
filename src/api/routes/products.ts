@@ -1,7 +1,7 @@
 import express from "express";
-import { auth } from "@middleware/auth";
+import { auth } from "../middleware/auth";
 
-import Product from "@api/models/Product";
+import Product from "../models/Product";
 
 const router = express.Router();
 

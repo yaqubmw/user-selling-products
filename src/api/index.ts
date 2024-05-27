@@ -1,8 +1,8 @@
 import express from "express";
 
-import connectDB from "@utils/db";
-import authRoutes from "@api/routes/auth";
-import productRoutes from "@api/routes/products";
+import connectDB from "./utils/db";
+import authRoutes from "./routes/auth";
+import productRoutes from "./routes/products";
 
 const app = express();
 
